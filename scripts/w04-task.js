@@ -24,7 +24,7 @@ myProfile.placesLived.push(
         length: "9 years"
     },
     {
-        place: "Berkley, CA",
+        place: "Berkeley, CA",
         length: "2 years"
     },
     {
