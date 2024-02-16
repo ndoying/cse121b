@@ -39,6 +39,4 @@ function displayQuote(quote, author) {
     document.querySelector("#author").textContent = `- ${author}`;
 }
 
-
-
 fetchRandomQuote();
