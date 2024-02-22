@@ -46,3 +46,12 @@ body {
     width: 100px;
     height: 80px !important;
 }
+
+h1 {
+    margin-bottom: 10;
+}
+
+h2 {
+    
+    margin-bottom: 60;
+}

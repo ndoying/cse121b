@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | W06: Random Quote Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/w06-task.css">
+</head>
+
+<body>
+  <nav>
+    <a
+        href="https://ndoying.github.io/cse121b/final-project/w06-task.html"
+        target="_blank"
+        class="github"
+    </a> -->
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../w01-task.html">W1 Task</a></li>
+      <li><a href="../w03-task.html">W3 Task</a></li>
+      <li><a href="../w04-task.html">W4 Task</a></li>
+      <li><a href="../w05-task.html">W5 Task</a></li>
+      <li><a href="w06-task.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main>
+    
+    <button id="fetch-quote">Fetch New Quote</button>
+    <select id="topic-selector" title="Choose a topic">
+        <option value="random">Random</option>
+        <option value="famous quotes">Famous</option>
+        <option value="business">Business</option>
+        <option value="education">Education</option>
+        <option value="history">History</option>
+        <option value="religion">Religion</option>
+        <option value="success">Success</option>
+        <option value="technology">Technology</option>
+    </select>
+    <div id="quote-container">
+        <p id="quote"></p>
+        <p id="author"></p>
+    </div>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | Week 06 - Random Quote Generator | CSE 121b
+  </footer>
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/w06-task.js"></script>
+</body>
+
+</html>
